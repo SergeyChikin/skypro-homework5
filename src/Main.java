@@ -87,15 +87,18 @@ public class Main {
          int two;
          int three;
          one = 75;
-         two = 34;
+         two = 150;
          three = -2;
          if ( one > two && one > three ) {
              System.out.println( one );
          } else if ( two > one && two > three ) {
              System.out.println( two );
-         } else {
+         } else if ( three > two && three > one ){
              System.out.println( three );
+         } else {
+             System.out.println("Числа  равны.");
          }
      }
+
 
 }
